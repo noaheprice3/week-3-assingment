@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/jquery/dist/jquery.js">
+</head>
+<body>
+<!-- navbar-begin -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="page1.html">Stock Page</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="page2.html">Order Page</a>
+            </li>
+        </ul>
+    </nav>
+<!-- navbar-end -->
+    <!-- img-header-begin -->
+<div class="container">
+    <h1 class="display-1 text-center text-primary">Check Out</h1>
+</div>
+
+<!--form-begin -->
+<form>
+<div class="container bg-secondary">
+    <h1 class="text-warning">Shipping Adress</h1>
+    <div class="form-group">
+      <label for="Name"class="text-light">Name</label>
+      <input type="text" class="form-control" placeholder="Name">
+    </div>
+    <div class="form-group">
+      <div class="form-group col-md-4">
+        <label for="inputCountry" class="text-light">Country</label>
+        <select id="inputCountry" class="form-control">
+          <option selected>Select...</option>
+          <option>Afghanistan</option>
+          <option>Albania</option>
+          <option>Algeria</option>
+          <option>Andorra</option>
+          <option>Angola</option>
+          <option>Antigua and Barbuda</option>
+          <option>Fiji</option>
+          <option>Indonesia</option>
+          <option>Iraq</option>
+          <option>United States of America</option>
+          <option>United Kingdom</option>
+          <option>Ect...</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="street1"class="text-light">Street 1</label>
+        <input type="text" class="form-control" placeholder="Adress 1">
+      </div>
+      <div class="form-group">
+        <label for="street2"class="text-light">Street 2</label>
+        <input type="text" class="form-control" placeholder="Adress 2">
+      </div>
+      <div class="form-group">
+        <label for="City" class="text-light">City</label>
+        <input type="text" class="form-control" placeholder="City">
+    <div class="form-group col-md-4">
+            <label for="inputState" class="text-light">State</label>
+            <select id="inputState" class="form-control">
+              <option selected>Select...</option>
+              <option>Alabama</option>
+              <option>Alaska</option>
+              <option>Arizona</option>
+              <option>Arkansas</option>
+              <option>California</option>
+              <option>Colorado</option>
+              <option>Connecticut</option>
+              <option>Delaware</option>
+              <option>Florida</option>
+              <option>Georgia</option>
+              <option>Ect...</option>
+            </select>
+      </div>
+      <div class="form-group col-sm-2">
+        <label for="zip-code" class="text-light">Zip code</label>
+        <input type="text" class="form-control" placeholder="Zip">
+      </div>
+</div>
+<div class="form-group">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox">
+        <label class="text-warning" class="form-check-label">
+          Save as default adress
+        </label>
+      </div>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+<!--form-end -->
+
+<!-- bootstrap-grid-header-start -->
+<div class="container">
+    <h2 class="display-4 text-center text-dark">Coming Soon</h2>
+</div>
+
+<!-- bootstrap=grid-header-end -->
+
+<!-- bootstrap-grid-begin -->
+<div class="container badge-secondary bg-dark">
+    <div class="row text-center">
+      <div class="col-md mt-4">
+        <h5 class="text-warning">Experimental Jet set,Trash and No Star</h5>
+        <img src="https://upload.wikimedia.org/wikipedia/en/5/51/Experimental_Jet_Set_Trash_and_No_Star.png" style="width:50%;" class="m-1" alt="Jet set img">
+        <h5 class="text-light">Sonic Youth</h5>
+      </div>
+      <div class="col-md mt-4">
+        <h5 class="text-warning">Kind of Blue</h5>
+        <img src="https://upload.wikimedia.org/wikipedia/en/9/9c/MilesDavisKindofBlue.jpg" style="width:50%;" class="m-1" alt="Kind of blue img">
+        <h5 class="text-Light">Miles Davis</h5>
+      </div>
+      <div class="col-md mt-4">
+        <h5 class="text-warning">In Utero</h5>
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/In_Utero_%28Nirvana%29_album_cover.jpg/220px-In_Utero_%28Nirvana%29_album_cover.jpg" style="width:50%;" class="m-1" alt="In Utero img">
+        <h5 class="text-light">Nirvana</h5>
+   
+      </div>
+    </div>
+  </div>
+<!-- bootstrap-grid-end -->
+</body>
+</html>
