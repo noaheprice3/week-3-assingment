@@ -1,40 +1,6 @@
 body{
     background-image: url(https://garden.spoonflower.com/c/12984962/p/f/m/EH5aWJbn_LhuOlWypO5l_PaHuLwc4GUac9wRjQv8xJ-7aocY_A8rq3E/Solid%20graphite%20dark%20grey.jpg);
 }
-.flexbox-container{
-    display: flex;
-}
-.flexbox-item{
-    width: 200px;
-    margin: 50px;
-    border-style: solid 8px darkgrey;
-    background-color: whitesmoke;
-}
-.flexbox-item-1{
-    min-height: 100px;
-
-}
-#flex-title-1{
-    font-size: larger;
-    font-family: sans-serif;
-    color: blue;
-}
-#paragraph1{
-    font-size: medium;
-    font-family: sans-serif;
-
-}
-#img1{
-    height: 200px;
-}
-.flexbox-item-2{
-    min-height: 200px;
-
-}
-
-.flexbox-item-3{
-    min-height: 300px;
-}
 
 
 
